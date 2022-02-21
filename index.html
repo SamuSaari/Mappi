@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mappi</title>
+        <style>
+            body {
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+            .dark-mode {
+              background-color: rgb(32, 32, 32);
+              color: rgb(230, 230, 230);
+            }
+          </style>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">Käyttämäsi selainversio on <strong>vanhentunut</strong> browser. ole hyvä ja <a href="#">päivitä selainversiosi</a> parantaaksesi kokemustasi.</p>
+        <![endif]-->
+
+<!----- Banner ----->
+        <section id="banner">
+            <h1>Mappi</h1>
+            <h2>Pilviverkon infosivu</h2>
+        </div>
+        </section>
+
+<!----- Ilmoitustaulu ----->
+
+<section class="ilmoitukset">
+    <div class="ilmoitus">
+    <h3>Tulevat ilmoitukset</h3> 
+    <p class="italic">Ei ilmoituksia</p> <!-- Muuta tarvittaessa-->
+</div>
+</section>
+
+<!----- Linkit ----->
+<section class="Linkit">
+        <h5>Linkit</h5>
+        <p>Klikkaamalla linkkiä, pääset sivulle</p>
+        <div class="row">
+            <div class="linkit-col">
+            <h3>Wifi tunnukset</h3>
+            <p>SSID: MitlasTyö</p>
+        <div class="copyprotection">
+            <p>Salasana: Salasana</p>
+        </div>
+            <p>-</p>
+            <p>SSID: MitlasVieras</p>
+        <div class="copyprotection">
+            <p>Salasana: Salasana</p>
+        </div>
+        </div>
+        <div class="linkit-col">
+            <h3>Pikalinkit</h3>
+            <p><a href="https://palvelin.leoskari.com/tiedostot">Tiedostopalvelin</a></p>
+            <p><a href="https://speedtest.leoskari.com">Speedtest</a></p>
+            <p><a href="https://vaultwarden.leoskari.com">Vaultwarden</a></p>
+        </div>
+        <div class="linkit-col">
+            <h3>Mitlas Oy</h3>
+            <p><a href="https://www.mittauslaskenta.com">Mitlas Oy verkkosivut</a></p>
+            <p><a href="https://mitlaspro.mittauslaskenta.com">MitlasPro projektipankki</a></p>
+        </div>
+        <div class="linkit-col">
+            <h3>Tuki</h3>
+            <p><a href="/ohjeet/">Ohjeet</a></p>
+            <p><a href="/vpn/">VPN cert</a></p>
+        </div>
+    </section>
+
+    <!-- Darkmode nappi -->
+    <div class="nappi">
+        <button onclick="darkMode()">Darkmode</button>
+      </div>
+
+    <!------ Footer ------>
+    <div class="footer">
+        <h4>copyright © Leoskari.com 2022 all rights reserved</h4>
+    </div>
+    <script>
+        function darkMode() {
+          var element = document.body;
+          var element = 
+          element.classList.toggle("dark-mode");
+        }
+      </script>
+    </body>
+</html>

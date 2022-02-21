@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----- Banneri -----*/
+#banner {
+    background: black url(/DJI_0098-Pano.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 50vh;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+}
+
+h2{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-style: italic;
+    color: black;
+}
+
+/*----- Ilmoitustaulu -----*/
+.ilmoitus{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    text-align: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    border: 1px solid rgb(255, 80, 80);
+    margin-top: 35px;
+}
+
+p.italic{
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+/*----- linkit -----*/
+
+.Linkit{
+    width: 80%;
+    margin: auto;
+    text-align: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h5{
+    font-size:50px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.linkit-col{
+    flex-basis: 25%;
+    background: transparent;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 21px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.copyprotection {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+/*----- Footer -----*/
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+h4{
+    font-size: 14px; 
+    color: rgb(82, 82, 82);
+}
+
