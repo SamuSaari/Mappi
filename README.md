@@ -18,7 +18,6 @@ The website features:
 The technologies used in this project include:
 
 - HTML/CSS: For structuring and styling the website.
-- JavaScript: For adding interactivity to the website.
 
 ## Future Plans
 
